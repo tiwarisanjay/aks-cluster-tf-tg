@@ -29,7 +29,7 @@ variable "environment" {
 
 # SSH Public Key for Linux VMs
 variable "ssh_public_key" {
-  default = "C:\Users\Sanjay Tiwari\Documents\LEARNING\AKS\aks-ssh-key-terraform\aksprodsshkey.pub"
+  default = "C:/Users/Sanjay Tiwari/Documents/LEARNING/AKS/aks-ssh-key-terraform/aksprodsshkey.pub"
   description = "This variable defines the SSH Public Key for Linux k8s Worker nodes"  
 }
 
